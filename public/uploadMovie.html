@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Shop</title>
+
+	<meta charset="utf-8">
+
+	<meta name="keywords" content="movies, latest, action">
+
+<!-- 	<meta http-equiv="refresh" content="30"> -->
+
+	<neta name="viewport" content = "width=device-width, initial-scale=1.0" >
+
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-grid.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+
+	<script type="text/javascript" src="bootstrap/js/bootsrap.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<div class="container gridContainer">
+	<div id="y">
+
+		<nav class="navbar navbar-expand-lg navbar-light">
+  <a id="div2" class="navbar-brand" href="#">
+	<img src="../images/movieshop.jpg" src="movie logo" width="100" height="100">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  </div>
+</nav>
+	<div id="div1" class="row">
+	<p>Real and Reel: Buy one get Two free</p>
+</div>
+<div class="row">
+	<a href="../index.html" class="btn btn-primary" role="button">Back to Homepage</a>
+</div>
+<body>
+
+	<div class="container">
+		<form>
+			<div class="row form-group">
+				<div class="col">
+					<label for="Movie Name">Movie  Name</label>
+				</br>
+					<input type="text" name="movieName" id="movieName" placeholder="Movie Name" class="form-control">
+				</div>
+
+				<div class="col">
+					<label for="leadActor">Lead Actor</label>
+					<input type="text" name="leadActor" id= "leadActor" placeholder="Lead Actor"  class="form-control">
+				</div>
+			</div>
+
+			<div class="row form-group">
+				<div class="col">
+					<label for="Duration">Duration</label>
+					<select class="form-control" name="Time in Hours">
+						<option value="time">Time in Hours</option>
+						<option value="2 hr">1 hr</option>
+						<option value="3 hr">2 hrs</option>
+					</select>
+				</div>
+
+				<div class="col">
+					<label for="Poster">Movie  Poster</label>
+				</br>
+					<input type="file" name="date released" id="Poster" class="form-control">
+				</div>
+				
+			</div>
+			<div class="container">
+		<form>
+			<div class="row form-group">
+				<div class="col">
+					<label for="rating">Rating</label>
+					<input type="text" name="Rating" id="Rating" placeholder="PG" class="form-control">
+				</div>
+
+				<div class="col">
+					<label for="genre">Genre</label>
+					<input type="text" name="genre" id= "genre" placeholder="Action"  class="form-control">
+				</div>
+			</div>
+
+			<div class="row form-group">
+				<div class="col">
+					<input type="submit" name="save" id="save" class="btn btn-success btn-block">
+				</div>
+
+				<div class="col">
+					<input type="reset" name="reset" id="reset" class="btn btn-danger btn-block">
+				</div>
+				
+			</div>
+
+		</form>
+		
+	</div>
+
+</body>
+</html>
